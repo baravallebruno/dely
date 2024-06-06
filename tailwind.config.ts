@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-
+import { customColors } from "./styles/colors.config";
 const config = {
   darkMode: ["class"],
   content: [
@@ -19,8 +19,7 @@ const config = {
     },
     extend: {
       colors: {
-        "dely-primary": "hsl(var(--dely-primary))",
-        "dely-gray": "hsl(var(--dely-gray))",
+        ...customColors,
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

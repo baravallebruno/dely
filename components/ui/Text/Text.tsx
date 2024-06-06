@@ -17,7 +17,7 @@ const Text = ({
 }: TextProps) => {
   const variantMap: Record<Variant, string> = {
     body: "text-base font-normal",
-    small: "text-sm font-light text-dely-gray",
+    small: "text-sm md:text-base font-light text-dely-gray",
   };
 
   const appliedStyles = cn(variantMap[variant], className);

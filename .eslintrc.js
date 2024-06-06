@@ -4,7 +4,7 @@ module.exports = {
     "react-app",
     "plugin:prettier/recommended",
     "prettier/react",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
   ],
   plugins: ["react-hooks"],
   parser: "@typescript-eslint/parser",

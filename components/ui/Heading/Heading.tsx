@@ -22,7 +22,7 @@ const Heading = ({
 }: HeadingProps): JSX.Element => {
   const variantMap: Record<Variant, string> = {
     title: "text-4xl",
-    subtitle: "text-2xl",
+    subtitle: "text-2xl md:text-3xl",
     section: "text-base",
   };
 
